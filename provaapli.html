@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\exer_aplicaçao\formulario.css" media="">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="campo">
+        <h1 id="titulo">CADASTRO DE PESSOAS FISICAS</h1>
+       <h2 id="subtitulo">Insira os dados da pessoa</h2>
+        <br>
+    </div>
+    <form>
+        <FIeldset class="grupo">
+            <div class="campo">
+            <label><strong> Insira o nome completo:</strong></label>
+            <input type="text" nome = "nome" id="nome">
+        </div>
+
+        <div class="campo">
+            <label><strong> Endereço:</strong></label>
+            <input type="text" name="Endereço" id="Endereço">
+        </div>
+            </FIeldset> <br>
+
+            <div class="campo">
+                <label><strong> Email</strong></label>
+                <input type="email" name="email" id="email">
+            </div><br>
+
+            <div class="campo">
+                <label><strong>Selecione o sexo:</strong> </label>
+                <label>
+                    <input type="radio" name="masculino" value="M" checked>Masculino.
+                </label>
+
+                <label >
+                    <input type="radio" name="feminino" value="F">Feminino.
+                </label>
+            </div><br>
+
+            <div class="campo">
+                <label><strong>Selecione a Cidade:</strong></label>
+                <select name="Cidade" id="UF">
+                    <option selected disabled value="Cidades">Cidade</option>
+                   <option value="SP">SP</option>
+                   <option value="MG">MG</option>
+                   <option value="BA">BA</option>
+                   <option value="PA">PA</option>
+                </select><br><br>
+            </div>
+
+            <fieldset class="grupo">
+
+                <div class="campo">
+                    <label><strong>Cor da pele:</strong></label><br>
+                    <input type="checkbox" name="branca" id="B">
+                    <label for="branca">Branca</label>
+                    <input type="checkbox" name="pardo" id="B">
+                    <label for="pardo">Pardo</label>
+                    <input type="checkbox" name="amarela" id="B">
+                    <label for="amarela">Amarela</label>
+                    <input type="checkbox" name="negra" id="B">
+                    <label for="negra">Negra</label>
+                    <input type="checkbox" name="outras" id="B">
+                    <label for="outras">Outras</label>
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <br>
+                <label><strong>Observações:</strong></label>
+                <textarea name="texto" id="obç" cols="50" rows="3"></textarea>
+            </div><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Sair</button>
+    </form>
+
+
+</body>
+</html>
