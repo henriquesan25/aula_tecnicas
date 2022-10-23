@@ -1,8 +1,4 @@
-//Henrique Santiago//
-//RGM: 25955055
 
-//correçao aula 22/03//
-//4//
 for (var i = 1; i <= 10; i++){
     for(var y = 1; y <= 10; y++){
         console.log(i + " x " + y + " = " + i*y);
